@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./my logo.png" type="image/x-icon">
+</head>
+<body>
+    
+
+ <div class="calculator">
+ <div class="displa">
+    <input id="display" type="text">
+ </div>
+
+ <div class="buttons-container">
+<div class="first row">
+<button type="button" id="9" onclick="pressBtn(9)">9</button>
+<button type="button" id="8" onclick="pressBtn(8)">8</button>
+<button type="button" id="7" onclick="pressBtn(7)">7</button>
+<button class="special" type="button" id="/" onclick="pressBtn      ('/')">/</button>
+</div>
+
+<div class="second row">
+    <button type="button" id="6" onclick="pressBtn(6)">6</button>
+    <button type="button" id="5" onclick="pressBtn(5)">5</button>
+    <button type="button" id="4" onclick="pressBtn(4)">4</button>
+    <button class="special" type="button" id="*" onclick="pressBtn('*')">x</button>
+</div>
+
+
+<div class="third row">
+<button type="button" id="3" onclick="pressBtn(3)">3</button>
+<button type="button" id="2" onclick="pressBtn(2)">2</button>
+<button type="button" id="1" onclick="pressBtn(1)">1</button>
+<button class="special" type="button" id="-" onclick="pressBtn('-')">-</button>
+
+</div>
+
+
+<div class="fourth row">
+    <button id="0" type="button" onclick="pressBtn(0)">0</button>
+<button class="special" id="." type="button" onclick="pressBtn('.')">.</button>
+<button class="special" id="=" type="button" onclick="calculate('=')">=</button>
+<button class="special" id="+" type="button" onclick="pressBtn('+')">+</button>
+
+</div>
+
+ </div>
+
+ </div>
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>

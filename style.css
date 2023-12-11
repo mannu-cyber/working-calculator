@@ -1,0 +1,74 @@
+@font-face {
+    font-family: a;
+    src: url(./TypoDigitDemo-VG9lV.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html, body{
+width: 100%;
+height: 100%;
+}
+
+.calculator{
+    padding: 20px;
+    padding-top: 50px;
+    width: 420px;
+    height: 550px;
+    background-color: #172222;
+    margin: 5vw auto;
+}
+
+.calculator input{
+    width: 380px;
+    display: block;
+    margin: 0 auto;
+height: 60px;
+border: none;
+font-family:a ;
+font-size: 60px;
+background-color: #949295;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+        margin: 2vw 0;
+}
+.calculator .buttons-container{
+    width: 100%;
+    margin-top: 4vw;
+  
+}
+
+.calculator button{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  50px;
+    background-color:#38454A;
+    border: none;
+    padding: 2vw;
+    font-size: 2.5vw;
+    box-shadow: 0 0 10px gray;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: .97;
+}
+
+ .calculator .special{
+    background-color: #2b3b3f;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #634063b6;
+ }
